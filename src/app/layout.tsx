@@ -1,3 +1,4 @@
+import { ThemeProvider } from "@/components/theme/theme-provider";
 import { SITE } from "@/data/site";
 import type { Metadata } from "next";
 import { Geist, Inter } from "next/font/google";
@@ -29,7 +30,7 @@ export default function RootLayout({ children }: Readonly<Props>) {
       className={`h-full antialiased ${geist.variable} ${inter.variable}`}
       suppressHydrationWarning>
       <body className="flex min-h-full flex-col" suppressHydrationWarning>
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
