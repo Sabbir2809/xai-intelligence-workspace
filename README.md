@@ -4,6 +4,12 @@ An interactive frontend prototype that demonstrates how **XAI transforms raw dat
 
 ---
 
+## 🌐 Live Demo
+
+**🔗 https://xai-insight.vercel.app**
+
+---
+
 ## ✨ Overview
 
 XAI – Intelligence Workspace is a high-fidelity single-page product experience designed to communicate the AI workflow:
