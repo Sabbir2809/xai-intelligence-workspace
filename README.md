@@ -1,138 +1,67 @@
 # XAI – Intelligence Workspace
 
-An interactive frontend prototype that demonstrates how **XAI transforms raw data into structured intelligence and actionable insights** through immersive UI, purposeful motion and modern web technologies.
+## Project Overview
+
+The project is designed to explain how XAI processes raw data and turns it into meaningful insights. Instead of using long descriptions, the experience uses motion, interaction and a clean interface to guide users through the product.
 
 ---
 
-## 🌐 Live Demo
+## Technical Approach
 
-**🔗 https://xai-insight.vercel.app**
-
----
-
-## ✨ Overview
-
-XAI – Intelligence Workspace is a high-fidelity single-page product experience designed to communicate the AI workflow:
-
-**Raw Data → Structured Intelligence → Actionable Insights → AI Automation**
-
-The experience combines thoughtful interaction design, smooth animations, and clean product UI to create a calm, modern and technically confident interface.
+The application is built as a single-page experience using reusable components and a modular structure. Animations are used to support the user journey and explain each stage of the product in a simple and engaging way.
 
 ---
 
-## 🚀 Features
+## Live Demo
 
-- Interactive Hero Experience
-- Data → Intelligence visual transformation
-- Scroll-based storytelling
-- AI Insight Flow animations
-- Product Dashboard Preview
-- 3D interactive experience
-- Smooth micro-interactions
-- Responsive layout
-- Modern UI with dark theme
+**Live URL:** https://xai-insight.vercel.app
+
+## Figma
+
+**Figma File:** https://www.figma.com/design/0g5LtIhtSMolKc9eggb9o0/Xai-insight-new
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- Next.js
-- React
+- Next.js (App Router)
 - TypeScript
 - Tailwind CSS
 - Framer Motion
-- GSAP + ScrollTrigger
-- React Three Fiber (Three.js)
+- GSAP
+- Three.js / React Three Fiber
 - Lucide Icons
 
 ---
 
-## 📖 Technical Highlights
+## Getting Started
 
-- Component-based architecture
-- Reusable UI components
-- Modular animation system
-- Scroll-driven interactions
-- GPU-friendly animations
-- Clean and maintainable codebase
-- Performance-focused implementation
-
----
-
-## 🎬 Animation Approach
-
-- **Framer Motion** for UI transitions and layout animations
-- **GSAP + ScrollTrigger** for scroll-driven storytelling
-- **React Three Fiber** for immersive 3D interactions
-- Smooth easing and subtle micro-interactions throughout the experience
-
----
-
-## 🎯 Main Sections
-
-### 1. Hero
-
-- Animated data particles
-- Data transformation
-- Interactive cursor effects
-
-### 2. Insight Flow
-
-- Ingest Data
-- Analyze with AI
-- Generate Insight
-
-### 3. Intelligence Dashboard
-
-- Sidebar navigation
-- Analytics cards
-- Charts & tables
-- Tab interactions
-
-### 4. Signature Interaction
-
-- Interactive 3D visualization
-- Scroll & cursor driven motion
-- Depth and parallax effects
-
----
-
-## ⚙️ Getting Started
-
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/sabbir2809/xai-intelligence-workspace.git
 ```
 
-Install dependencies
+Go to the project folder:
+
+```bash
+cd xai-intelligence-workspace
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Run development server
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Open
+Open:
 
-```
+```text
 http://localhost:3000
-```
-
----
-
-## 📦 Build
-
-```bash
-npm run build
-```
-
-Start production
-
-```bash
-npm start
 ```
